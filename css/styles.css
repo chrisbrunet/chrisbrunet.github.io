@@ -598,7 +598,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -1059,6 +1059,15 @@ progress {
   .g-sm-5,
   .gy-sm-5 {
     --bs-gutter-y: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .order-md-0 {
+    order: 0;
+  }
+  
+  .order-md-1 {
+    order: 1;
   }
 }
 @media (min-width: 768px) {
