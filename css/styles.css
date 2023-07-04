@@ -11738,7 +11738,7 @@ html {
 }
 
 #gallery {
-  line-height: 0;
+  line-height: normal;
   -webkit-column-count: 5;
   -webkit-column-gap: 5px;
   -moz-column-count: 5;
