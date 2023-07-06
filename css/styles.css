@@ -4185,6 +4185,8 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 .card > hr {
   margin-right: 0;
@@ -4303,6 +4305,11 @@ textarea.form-control-lg {
 
 .card-group > .card {
   margin-bottom: var(--bs-card-group-margin);
+}
+
+.card.raised {
+  transform: translateY(-8px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 @media (min-width: 576px) {
   .card-group {
