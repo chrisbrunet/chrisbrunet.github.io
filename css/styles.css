@@ -600,6 +600,7 @@ progress {
 .img-fluid {
   max-width: 80%;
   height: auto;
+  border-radius: 6px;
 }
 
 .card-body img.img-fluid {
