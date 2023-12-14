@@ -46,8 +46,8 @@
                                 <div class="card-body p-0">
                                     <div class="d-flex flex-column flex-md-row align-items-md-center">
                                         <div class="col-md-6 order-md-0 p-5">
-                                            <h2 class="fw-bolder">Strava Data Analyzer</h2>
-                                            <p>This is a personal and ongoing project of mine. By connecting with Strava's open API, I've created a Flask web app to analyze my activity stats in ways not made available through the Strava website or mobile app. Next on the roadmap for this project is a tool to find optimal segments in my area where I can achieve a top 10 finish.</p>
+                                            <h2 class="fw-bolder">Strava Data Analyzer Web App</h2>
+                                            <p>By connecting with Strava's open API, I've created a Flask web app to analyze data from my activities in ways not made available through the Strava website or mobile app. This web app was deployed with Google App Engine and is currently live at the link below. Next on the roadmap for this project is a tool to find optimal segments in my area where I can achieve a top-10 finish.</p>
                                             <p class="fw-bolder">Skills: Python, Flask, Pandas, Javascript, REST API, HTML, CSS</p>
                                             <div class="d-flex justify-content-center fs-2 gap-4">
                                                 <a class="text-muted" href="https://continual-loop-399321.wm.r.appspot.com" target="_blank">
@@ -68,13 +68,34 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- Commute Predictor ML Model -->
+                            <div class="card overflow-hidden rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex flex-column flex-md-row align-items-md-center">
+                                        <div class="col-md-6 order-md-0 p-5">
+                                            <h2 class="fw-bolder">Commute Predictor Machine Learning Model</h2>
+                                            <p>By combining bicycle commute data over the past year from Strava with historical Calgary weather data, I trained and validated various machine-learning models to predict my commute time based on current weather conditions. A GUI was used to input current weather and display my predicted commute time which is accurate to within 1 minute and 38 seconds. This project also employs web scraping to autofill certain current weather fields.</p>
+                                            <p class="fw-bolder">Skills: Python, Pandas, Machine Learning, Tkinter</p>
+                                            <div class="d-flex justify-content-center fs-2 gap-4">
+                                                <a class="text-muted" href="https://github.com/chrisbrunet/ML-Commute-Predictor.git" target="_blank">
+                                                    <span class="text-muted fs-6">Check it out on GitHub</span>
+                                                    <i class="bi bi-github"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 order-md-1">
+                                            <img class="img-fluid" src="assets/projects/commute_predictor_2.gif" alt="..." style="max-height: 350px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <!-- Airline Web App-->
                             <div class="card overflow-hidden rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
                                     <div class="d-flex flex-column flex-md-row align-items-md-center">
                                         <div class="col-md-6 order-md-0 p-5">
                                             <h2 class="fw-bolder">Airline Booking System Web App</h2>
-                                            <p>A full stack web application designed to simulate the process of booking a flight through an airline. System comes with extended functionality of managing existing bookings, and system admin abilities to modify flight and crew details. This project was part of the coursework of my MEng program.</p>
+                                            <p>A full-stack web application designed to simulate the process of booking a flight through an airline. The system comes with extended functionality of managing existing bookings, and system admin abilities to modify flight and crew details. This project was part of the coursework of my MEng program.</p>
                                             <p class="fw-bolder">Skills: React, Node.js, MySQL, Javascript, HTML, CSS</p>
                                             <!-- <div class="d-flex justify-content-center fs-2 gap-4">
                                                 <a class="text-muted" href="https://continual-loop-399321.wm.r.appspot.com" target="_blank">
@@ -95,34 +116,13 @@
                                     </div>
                                 </div>
                             </div>
-                             <!-- Commute Predictor ML Model -->
-                             <div class="card overflow-hidden rounded-4 border-0 mb-5">
+                            <!-- Snake Game -->
+                            <div class="card overflow-hidden rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
                                     <div class="d-flex flex-column flex-md-row align-items-md-center">
                                         <div class="col-md-6 order-md-0 p-5">
-                                            <h2 class="fw-bolder">Commute Predictor Machine Learning Model</h2>
-                                            <p>This project combines my bicycle commute data from Strava with Calgary weather data to train and implement a machine learning model to predict my commute time based on current weather. A GUI was used to input current weather and display my predicted commute time which is accurate to within 1 minute and 38 seconds. This project also uses web scraping to autofill certain cells in the GUI.</p>
-                                            <p class="fw-bolder">Skills: Python, Pandas, Machine Learning, Tkinter</p>
-                                            <div class="d-flex justify-content-center fs-2 gap-4">
-                                                <a class="text-muted" href="https://github.com/chrisbrunet/ML-Commute-Predictor.git" target="_blank">
-                                                    <span class="text-muted fs-6">Check it out on GitHub</span>
-                                                    <i class="bi bi-github"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 order-md-1">
-                                            <img class="img-fluid" src="assets/projects/commute_predictor_2.gif" alt="..." style="max-height: 350px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                             <!-- Snake Game -->
-                             <div class="card overflow-hidden rounded-4 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex flex-column flex-md-row align-items-md-center">
-                                        <div class="col-md-6 order-md-0 p-5">
-                                            <h2 class="fw-bolder">Snake Game</h2>
-                                            <p>This is a personal project to recreate the classic Snake video game with Java Swing GUI. The project employs an object oriented approach to handle the Snake, Apple, and various screens that the user may see. I have also bundled this project as a Mac application that you can download and try for yourself! (to open the app, you will need to navigate to "Privacy & Security" in System Settings and selct "Open Anyways". Sorry I'm not a verified developer yet!)</p>
+                                            <h2 class="fw-bolder">Snake Game Desktop Application</h2>
+                                            <p>Recreating the classic Snake video game by employing an object-oriented approach to handle the Snake, Apple, and various screens that the user will see. This game includes additional features such as difficulty selection and high score tracking between sessions. I have bundled this project as a Mac application that you can download and play for yourself! (To open the app, you will need to navigate to "Privacy & Security" in System Settings and select "Open Anyways".)</p>
                                             <p class="fw-bolder">Skills: Java, Swing GUI, OOP</p>
                                             <div class="d-flex justify-content-center fs-2 gap-4">
                                                 <a class="text-muted" href="https://www.dropbox.com/scl/fi/ft8r5y8gu3904084wu617/Snake.app.zip?rlkey=o6yglxq669r3iwko1rjlu2705&dl=0" target="_blank">
@@ -148,9 +148,8 @@
                                 <div class="card-body p-0">
                                     <div class="d-flex flex-column flex-md-row align-items-md-center">
                                         <div class="col-md-6 order-md-0 p-5">
-                                            <h2 class="fw-bolder">Random Serivce Ticket Database</h2>
-                                            <p>To learn about database design, queries, and business intellignece, I created a MySQL database to simulate management of service tickets. I then created Java command line interface to populate this dashboard with random service tickets. The final product of this project is a Looker Studio dashboard used to analyze these tickets.</p>
-                                            <p>Edit: I've paused hosting of this server with Google Cloud in search for a more cost effective option. If you'd like to check this out, send me an email and I can resume the server.</p>
+                                            <h2 class="fw-bolder">Serivce Ticket Database</h2>
+                                            <p>Created a Java program which utilizes JDBC driver to connect to and populate a local MySQL database with over 15,000 randomly generated service tickets. This database was then connected to a business intelligence software, Looker Studio, to visualize and derive various metrics from the database including ticket Priority and Mean Time to Repair (MTTR).</p>
                                             <p class="fw-bolder">Skills: MySQL, SQL, Java, Looker Studio, Google Cloud</p>
                                             <!-- <div class="d-flex justify-content-center fs-2 gap-4">
                                                 <a class="text-muted" href="https://lookerstudio.google.com/s/qsBiSFAr_m8" target="_blank">
@@ -174,24 +173,19 @@
                             <!-- NBA PLayer Analysis -->
                             <div class="card overflow-hidden rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
-                                    <div class="d-flex flex-column flex-md-row align-items-md-center">
-                                        <div class="col-md-6 order-md-0 p-5">
-                                            <h2 class="fw-bolder">NBA True Player Efficiency Analysis</h2>
-                                            <p>Having recently become interested in the sport of cycling, I learned that a common measure of a cyclist's ability is their Functional Threshold Power (FTP), which is often measured in Watts/Kilogram. My partner, Sean, and I decided to apply a similar method of analysis on publicly available NBA player tracking data to determine which players are capable of scoring the most points with the least amount of power required to do so.</p>
-                                            <p class="fw-bolder">Skills: Python, Pandas</p>
-                                            <div class="d-flex justify-content-center fs-2 gap-4">
-                                                <a class="text-muted" href="https://github.com/chrisbrunet/NBA-Player-Efficiency-App.git" target="_blank">
-                                                    <span class="text-muted fs-6">Check it out on GitHub</span>
-                                                    <i class="bi bi-github"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 order-md-1">
-                                            <img class="img-fluid" src="assets/projects/nba_code.png" alt="..." style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);"/>
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">NBA Player Efficiency Analysis</h2>
+                                        <p>A common measure of a cyclist's ability is their Functional Threshold Power (FTP), which is often measured in Watts/Kilogram. My partner, Sean, and I decided to apply a similar method of analysis on publicly available NBA player tracking data to determine which players can score the most points requiring the least amount of power required to do so. As expected, this metric favoured smaller players such as point guards, especially those with high 3-point shooting ability like Steph Curry and Trae Young. However, some larger players, like Zion Williamson, were still able to defy this trend based on pure scoring ability.</p>
+                                        <p class="fw-bolder">Skills: Python, Pandas</p>
+                                        <div class="d-flex justify-content-center fs-2 gap-4">
+                                            <a class="text-muted" href="https://github.com/chrisbrunet/NBA-Player-Efficiency-App.git" target="_blank">
+                                                <span class="text-muted fs-6">Check it out on GitHub</span>
+                                                <i class="bi bi-github"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>                            
                              <!-- Project Card 2-->
                              <div class="card overflow-hidden rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
